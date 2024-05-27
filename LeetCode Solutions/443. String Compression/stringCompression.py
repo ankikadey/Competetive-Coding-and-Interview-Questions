@@ -1,3 +1,6 @@
+from ast import List
+import math
+
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
         first = math.inf
