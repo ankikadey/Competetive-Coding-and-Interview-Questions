@@ -7,7 +7,7 @@ A height-balanced binary tree is a binary tree in which the depth of the two sub
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class RahulAndTree {
     public static class Node {
         int data;
         Node left;
