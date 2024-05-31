@@ -4,7 +4,6 @@ Description: Rahul is given an integer array arr which contains all unique value
 A height-balanced binary tree is a binary tree in which the depth of the two subtrees of every node never differs by more than one.
 */
 
-import java.io.*;
 import java.util.*;
 
 public class RahulAndTree {
@@ -53,6 +52,7 @@ public class RahulAndTree {
         for(int i=0;i<n;i++){
             arr[i]=scn.nextInt();
         }
+        scn.close();
         Arrays.sort(arr);
         Node root = construct(arr,0,arr.length-1);
         display(root);
